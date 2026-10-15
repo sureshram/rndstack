@@ -1,0 +1,20 @@
+{
+  "name": "rndstack-local",
+  "interface": {
+    "displayName": "Rndstack Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "rndstack",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rndstack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

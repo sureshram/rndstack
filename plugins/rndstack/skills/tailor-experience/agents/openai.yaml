@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailor Experience"
+  short_description: "Match resume experience to job requirements"
+  default_prompt: "Use $tailor-experience to rewrite my experience for the supplied job description, preserving my actual responsibilities and results."

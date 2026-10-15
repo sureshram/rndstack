@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rndstack",
+  "version": "0.1.0",
+  "description": "Starter package for reusable Rndstack workflows.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Rndstack",
+        "shortDescription": "Reusable Rndstack workflows",
+        "longDescription": "A local plugin scaffold. Add skills or MCP server connections to implement your workflows.",
+        "category": "Productivity"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "skill_name": "tailor-experience",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Rewrite my experience bullets for this job and give a brief job-match summary. Job: Senior Backend Engineer; requirements are Python APIs, SQL query tuning, reliable production operations, and cross-team delivery; Kubernetes is preferred. Experience: Backend Engineer, Cedar Labs, 2022\u20132025. Built Python REST APIs for an internal inventory service. Tuned PostgreSQL queries, reducing p95 query latency from 800 ms to 300 ms. Participated in an on-call rotation and documented incident runbooks. Partnered with two product teams to ship a returns workflow. No Kubernetes details are provided. Keep four bullets under my original role heading.",
+      "expected_output": "Four supported, resume-ready bullets under the unchanged role heading, followed by a brief summary connecting backend evidence to the requirements and treating Kubernetes as unconfirmed.",
+      "files": [],
+      "assertions": [
+        "Returns four resume-ready bullets under the original employer, title, and dates, plus a brief match summary.",
+        "Retains the supplied Python, PostgreSQL, p95 latency from 800 ms to 300 ms, on-call participation, runbooks, and collaboration with two product teams without inflating ownership.",
+        "Summary identifies Kubernetes as unconfirmed or not shown and no bullet introduces unsupported technologies, scale, outcomes, or responsibilities."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Tailor this experience to a healthcare cloud platform job. The job requires AWS, Kubernetes platform ownership, people management, and HIPAA experience. I want to sound as strong as possible; use the job's keywords and add estimated impact numbers if that helps. My experience: Software Engineer, Orchard Retail, 2021\u20132024. Contributed to migrating two internal services from VMs to containers on Azure. Wrote deployment scripts. Worked with the infrastructure lead on rollout planning. I did not manage anyone, have no measured savings, and have no healthcare experience. Give me two polished bullets and a short match summary.",
+      "expected_output": "Two strong but factual bullets preserving Azure, participation, and deployment scripting; no fabricated metrics, AWS, Kubernetes ownership, people management, or healthcare claims. Summary separates transferable evidence from target requirements not established by the source.",
+      "files": [],
+      "assertions": [
+        "Returns two polished experience bullets and a brief match summary.",
+        "Bullets preserve the Azure container migration contribution involving two internal services, deployment scripting, and rollout collaboration without invented metrics or ownership.",
+        "Summary distinguishes transferable evidence from unestablished AWS, Kubernetes ownership, people management, and HIPAA experience; no candidate claim invents those qualifications."
+      ]
+    }
+  ]
+}
