@@ -2,6 +2,13 @@
 
 ## General Principles
 
+- Always write clear, concise, easy-to-follow and less verbose.
+- You must use simple english for non-technical words
+- Prefer visual representation for explainability vs prose
+- Use tables and graphs for data representations
+- Use bullet lists for key points
+- Write illustative diagrams to express ideas
+
 
 
 ## Design Principles
@@ -27,6 +34,4 @@
 
 - When building software programs, add logging appropriate to the coding language
 
-## Responses
 
-- Always write clear, easy-to-follow responses.

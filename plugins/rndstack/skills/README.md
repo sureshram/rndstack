@@ -17,4 +17,3 @@ Use a specific description explaining when to invoke each skill. Replace the
 greeting example with the workflow you want the plugin to provide.
 
 Portable plugins discover workflows from the `skills/` directory automatically.
-See [Build skills](https://developers.openai.com/plugins/build/skills).

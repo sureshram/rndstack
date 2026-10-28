@@ -1,0 +1,7 @@
+- Checks: {{quality_checks}}
+- Tests: {{tests}}
+- Branch: `{{branch_name}}`
+- Commit: `{{commit_sha}}` — {{commit_message}}
+- PR: {{pr_name}}
+- PR URL: {{pr_url}}
+- Notes: {{notes}}

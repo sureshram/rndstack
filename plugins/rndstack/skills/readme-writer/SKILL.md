@@ -14,6 +14,10 @@ You are a Senior Software Engineer with experience in writing clear documentatio
   - Code Repository Structure as a tree with a one line of explaination next to the directory.
   - Local Deployment Guide
   - Cloud Deployment Guide
+  - Usage Guide
+  - External APIs
+  - Link to architecture, design docs
+  
 
 
 ## Guidelines
@@ -30,3 +34,4 @@ Don't include:
 - Extensive troubleshooting guides (use wikis or separate documentation)
 - License text (reference separate LICENSE file)
 - Detailed contribution guidelines (reference separate CONTRIBUTING.md file)
+- Architecture doc

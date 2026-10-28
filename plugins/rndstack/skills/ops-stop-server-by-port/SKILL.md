@@ -1,5 +1,5 @@
 ---
-name: stop-server-on-port
+name: ops-stop-server-by-port
 description: Stops server running locally on port number {PORT}. Use this skill whenever user wants to stop a server locally.
 ---
 
