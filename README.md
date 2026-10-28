@@ -33,33 +33,3 @@ The catalog makes the package discoverable; it does not install, enable, or
 publish it by itself. After editing a locally installed plugin, refresh its
 installed copy and restart the desktop app before testing again.
 
-## Add another plugin
-
-Copy `plugins/rndstack/` to `plugins/<new-name>/`, then update its manifest
-`name`, description, and display metadata. Use a unique lowercase kebab-case
-name. Add a corresponding object to the marketplace's `plugins` array:
-
-```json
-{
-  "name": "new-plugin",
-  "source": {
-    "source": "local",
-    "path": "./plugins/new-plugin"
-  },
-  "policy": {
-    "installation": "AVAILABLE",
-    "authentication": "ON_INSTALL"
-  },
-  "category": "Productivity"
-}
-```
-
-Marketplace source paths resolve from the repository root. Plugin resource
-paths resolve from the plugin root. Keep paths inside their respective roots.
-
-Add an optional root `mcp.json` when you have an MCP server to bundle; use the
-Agent Plugins MCP schema and declare the server transport type. Add registered
-app mappings, hooks, or assets only when the plugin needs them.
-
-See the [official packaging documentation](https://developers.openai.com/plugins/build/plugins)
-for manifest formats, marketplace setup, and optional components.
